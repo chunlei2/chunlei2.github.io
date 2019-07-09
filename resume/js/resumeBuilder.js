@@ -100,7 +100,7 @@ This is empty on purpose! Your code to build the resume will go here.
          description: 'Saved 10G airline data into Hadoop file system, manipulated the data with map reduce \
                 <br>Analyzed the data with Hive, calculated the mean, maximum, standard error of departure delay based on each month, each week, each state\
                 <br>Visualized the summary statistics with R, explored the main reason for the departure delay',
-        images: ['./images/fry.jpg', '/images/fry.jpg']
+        images: ['./images/fry.jpg', 'images/fry.jpg']
      }, {
         title: 'Show and Tell Project',
         dates: 'Nov2018 - Dec2018',
