@@ -108,14 +108,30 @@ This is empty on purpose! Your code to build the resume will go here.
                <br>Constructed Convolutional Neural Network(CNN) to encode the image and Recurrent Neural Network(RNN) to generate words, leveraging GPU from Blue Water Super Computer to accelerate the implementation\
                <br>Evaluated the performance with Bilingual Evaluation Understudy Score(BLEU)',
        images: ['./images/fry.jpg', 'images/fry.jpg']
+    },{
+        title: 'Real Estate Market Project',
+        dates: 'Dec 2017',
+        description: 'Conducted explanatory data analysis on the past house price data with 2930 rows and 84 variables \
+                    <br>Established Lasso regression and random forest on the data, explored the best hyper-parameters with cross validation, evaluated the performance with RMSE\
+                    <br>Designed a graphical user interface (GUI) with SHINY based on R, provided data exploration, data visualization, personalized prediction and real-life google mapping ',
+        images: ['./images/fry.jpg', 'images/fry.jpg'],
+        url: 'https://chunlei-liu.shinyapps.io/amesHouseUI/'
     }],
      display: function (){
         projects.projects.forEach(function(project){
 
             $("#projects").append(HTMLprojectStart);
-    
-            var formattedTitle = HTMLprojectTitle.replace("%data%", project.title);
-            $(".project-entry:last").append(formattedTitle);
+            
+            if (project.url) {
+                var formattedTitle = HTMLprojectTitle.replace("%data%", project.title);
+                var formattedTitle = formattedTitle.replace("#", project.url);
+                $(".project-entry:last").append(formattedTitle);
+            }
+            else {
+                var formattedTitle = HTMLprojectTitle.replace("%data%", project.title);
+                $(".project-entry:last").append(formattedTitle);
+            }
+            
     
             var formattedDates = HTMLprojectDates.replace("%data%", project.dates);
             $(".project-entry:last").append(formattedDates);
