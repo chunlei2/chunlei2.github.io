@@ -107,7 +107,7 @@ This is empty on purpose! Your code to build the resume will go here.
         description: 'Implemented a research paper from Google DeepMind which generates complete sentences from an input image with Pytorch \
                <br>Constructed Convolutional Neural Network(CNN) to encode the image and Recurrent Neural Network(RNN) to generate words, leveraging GPU from Blue Water Super Computer to accelerate the implementation\
                <br>Evaluated the performance with Bilingual Evaluation Understudy Score(BLEU)',
-       images: ['./images/fry.jpg', 'images/fry.jpg']
+       images: ['./images/showTell.png']
     },{
         title: 'Real Estate Market Project',
         dates: 'Dec 2017',
