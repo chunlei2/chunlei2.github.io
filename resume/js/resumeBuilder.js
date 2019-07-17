@@ -10,7 +10,7 @@ This is empty on purpose! Your code to build the resume will go here.
                 github: 'chunlei2',
                 //twitter: 'chunlei_liu',
                 location: 'Champaign'},
-    welcomeMessage: 'aaaaaaaaaaa',
+    // welcomeMessage: 'aaaaaaaaaaa',
     skills: ['HTML', 'CSS', 'Java Script', 'Python', 'SAS', 'R', 'SQL', 'Hadoop'],
     biopic: './images/fry.jpg',
     display: function (){
