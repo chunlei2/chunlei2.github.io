@@ -100,7 +100,7 @@ This is empty on purpose! Your code to build the resume will go here.
          description: 'Saved 10G airline data into Hadoop file system, manipulated the data with map reduce \
                 <br>Analyzed the data with Hive, calculated the mean, maximum, standard error of departure delay based on each month, each week, each state\
                 <br>Visualized the summary statistics with R, explored the main reason for the departure delay',
-        images: ['./images/fry.jpg', 'images/fry.jpg']
+        images: ['./images/Treemap_2002_state.png', 'images/network.png']
      }, {
         title: 'Show and Tell Project',
         dates: 'Nov2018 - Dec2018',
@@ -114,7 +114,7 @@ This is empty on purpose! Your code to build the resume will go here.
         description: 'Conducted explanatory data analysis on the past house price data with 2930 rows and 84 variables \
                     <br>Established Lasso regression and random forest on the data, explored the best hyper-parameters with cross validation, evaluated the performance with RMSE\
                     <br>Designed a graphical user interface (GUI) with SHINY based on R, provided data exploration, data visualization, personalized prediction and real-life google mapping ',
-        images: ['./images/fry.jpg', 'images/fry.jpg'],
+        images: ['./images/analysis.png', 'images/prediction.png'],
         url: 'https://chunlei-liu.shinyapps.io/amesHouseUI/'
     }],
      display: function (){
